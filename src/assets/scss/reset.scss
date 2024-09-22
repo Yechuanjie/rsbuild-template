@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  scrollbar-color: rgb(199, 199, 199);
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(199, 199, 199);
+  border-radius: 6px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+input,
+textarea {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  resize: none;
+}
+
+.flex {
+  display: flex;
+  &.wrap {
+    flex-wrap: wrap;
+  }
+  &.column {
+    flex-direction: column;
+  }
+  &.middle {
+    align-items: center;
+  }
+  &.center {
+    justify-content: center;
+  }
+  &.between {
+    justify-content: space-between;
+  }
+  &.around {
+    justify-content: space-around;
+  }
+  &.start {
+    justify-content: flex-start;
+  }
+  &.end {
+    justify-content: flex-end;
+  }
+  &.align-end {
+    align-items: flex-end;
+  }
+  &-1 {
+    flex: 1;
+  }
+  &-shrink-0 {
+    flex-shrink: 0;
+  }
+}
+
+/* 鼠标手 */
+.cp {
+  cursor: pointer;
+}
