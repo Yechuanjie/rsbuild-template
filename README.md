@@ -1,5 +1,7 @@
 # Rsbuild Project
 
+基于rsbuild的vue3+ts+element-plus项目模板
+
 ## Setup
 
 Install the dependencies:
