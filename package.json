@@ -1,0 +1,41 @@
+{
+  "name": "welth-planning",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --env-mode dev --open",
+    "build:dev": "rsbuild build --env-mode dev",
+    "build:rel": "rsbuild build --env-mode release",
+    "build:pro": "rsbuild build --env-mode production",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "preview": "rsbuild preview --open"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@module-federation/enhanced": "^0.6.6",
+    "element-plus": "^2.8.3",
+    "pinia": "^2.2.2",
+    "vue": "^3.5.3",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@rsbuild/core": "^1.0.1",
+    "@rsbuild/plugin-sass": "^1.0.1",
+    "@rsbuild/plugin-vue": "^1.0.1",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^8.5.0",
+    "unplugin-auto-import": "^0.18.3",
+    "unplugin-vue-components": "^0.27.4"
+  },
+  "browserslist": [
+    "chrome >= 87",
+    "edge >= 88",
+    "firefox >= 78",
+    "safari >= 14"
+  ]
+}
